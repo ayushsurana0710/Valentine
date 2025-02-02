@@ -7,10 +7,7 @@ document.querySelectorAll('button').forEach(function(button) {
         if (e.target.id === 'yes') {
             document.querySelector('#particles-js').style.display = "block"
             const messages = [
-                'YAY, I LOVE YOU!', 'This makes me so happy!', 'Yessss!', 'OMG! She said yes :)',
-                'You choose the right answer', 'You made my day', "You've made my heart flutter!",
-                "You're my sunshine on a cloudy day!", "You mean the world to me", 'Y- you actually said yes 🥲'
-                
+                'You made the best choice !!', 'Mere saath reh kar ache decision lene lag gayi hai', 'The most beautiful girl has said yes', 'OMG! She said yes :)', 'You made my day', "Haash, I have my valentine", "You mean the world to me", 'Y- you actually said yes 🥲'  
             ] 
             const random = Math.floor(Math.random() * messages.length);
             document.querySelector('h1').innerText = messages[random]       
@@ -140,7 +137,7 @@ document.querySelectorAll('button').forEach(function(button) {
         if(e.target.id === "no") {
             document.querySelector('#particles-js').style.display = "none" 
             const messages = [
-                'Wrong answer! Try Again'
+                'Wrong answer! Try Again', 'Kabtak galat decision choose karegi', 'Are you sure?', 'Your boyfriend loves you a lot, why would you do that to him'
             ]
             const random = Math.floor(Math.random() * messages.length);
             document.querySelector('h1').innerText = messages[random]
